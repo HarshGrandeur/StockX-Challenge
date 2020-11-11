@@ -1,9 +1,9 @@
 # StockX-Challenge
 
-1. **Exercise 1  : **
+## 1. Exercise 1  : 
    Implemented the functions for unit tests. There are 2 function implementations : findMany and findOne. FindMany returns all shoes matching the search critera while findOne returns the first shoe matching the criteria.
    
-2. **Exercise 2 : **
+## 2. Exercise 2 : 
     
     I have implemented this as an Express JS application whose code is present in myapp/app.js.
 
