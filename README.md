@@ -29,7 +29,7 @@
    
 ###  Question 3 :
    
-   As part of this question,  we need to updated the prodcuts end point so as to sever to new clients which use uuid as id. This change must also be backward compatible to serve clients expecting int ids. To do this, I have added a new id : which is uuid and updated old id as 'old_id'. I also have a list of clients and their behaviour. When an incoming request comes, I am checking whether the client expects a new id or an old one based on its IP address. The client checking can later be changed to other ways based on the business needs. After this I am sending the required id.
+   As part of this question,  we need to updated the prodcuts end point so as to sever to new clients which use uuid as id. This change must also be backward compatible to serve clients expecting int ids. To do this, I have added a new id : which is uuid and updated old id as 'old_id'. For now, I have manually created the UUID, which will be created on demand later. I also have a list of clients and their behaviour. When an incoming request comes, I am checking whether the client expects a new id or an old one based on its IP address. The client checking can later be changed to other ways based on the business needs. After this I am sending the required json with int/uuid as its id.
     
 ###  Question 4 :
     
