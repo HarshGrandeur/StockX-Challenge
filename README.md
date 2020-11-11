@@ -1,9 +1,11 @@
 # StockX-Challenge
 
-1. Exercise 1 :
+1. **Exercise 1  : **
    Implemented the functions for unit tests. There are 2 function implementations : findMany and findOne. FindMany returns all shoes matching the search critera while findOne returns the first shoe matching the criteria.
    
-2. Exercise 2 :
+2. **Exercise 2 : **
+    
+    I have implemented this as an Express JS application whose code is present in myapp/app.js.
 
    *  Question 1 : I have implemented the end point for returning all ice-cream  products. The data type I have chosen for cost is 64 bit floating point numbers (JS default datatype) as it can easily handle prices with decimals.
    * Question 2 : 
